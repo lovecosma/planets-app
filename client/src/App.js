@@ -21,6 +21,5 @@ function App() {
     </div>
   );
 }
-//adding for commit
 
 export default App;
