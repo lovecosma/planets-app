@@ -8,12 +8,12 @@ import Contact from './Contact';
 function App() {
   return (
     <div>
-      <h1>Hello from Rails!</h1>
       <Router>
+        <h1>Hello from Rails!</h1>
         <Routes>
+          <Route path="/" element={<Home/>}></Route>
           <Route path="/about" element={<About/>}></Route>
           <Route path="/contact" element={<Contact/>}></Route>
-          <Route path="/" element={<Home/>}></Route>
         </Routes>
       </Router>
     </div>
