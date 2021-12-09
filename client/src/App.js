@@ -4,11 +4,13 @@ import {BrowserRouter as Router, Routes, Route} from "react-router-dom"
 import Home from './Home';
 import About from './About';
 import Contact from './Contact';
+import NavBar from './NavBar';
 
 function App() {
   return (
     <div>
       <Router>
+        <NavBar/>
         <h1>Hello from Rails!</h1>
         <Routes>
           <Route path="/about" element={<About/>}></Route>
