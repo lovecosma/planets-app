@@ -11,9 +11,9 @@ function App() {
       <h1>Hello from Rails!</h1>
       <Router>
         <Routes>
-          <Route path="/home" element={<Home/>}></Route>
           <Route path="/about" element={<About/>}></Route>
           <Route path="/contact" element={<Contact/>}></Route>
+          <Route path="/" element={<Home/>}></Route>
         </Routes>
       </Router>
     </div>
